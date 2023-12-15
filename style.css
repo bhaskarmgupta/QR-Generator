@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    
+    background-image: url('assests/wallpaperflare.com_wallpaper.jpg');
+    background-size: cover; /* Adjust as needed: 'cover', 'contain', or specific dimensions */
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust as needed: 'center center', 'top left', etc. */
+    background-attachment: fixed; /* Fixed background, so it doesn't scroll with the content */
+}
+
+.container {
+    text-align: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: lightblue;
+    border: 1px solid #999;
+}
+
+#qrcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
